@@ -1,8 +1,11 @@
+import { CategoryList } from "@/modules/categories";
 
 export default function CartPage() {
   return (
-    <div>
-      <h1>Cart Page</h1>
-    </div>
+    <>
+      {/* Listado de categorias */}
+      <CategoryList/>
+      {/* Menuo de productos */}
+    </>
   );
 }
