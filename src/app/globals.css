@@ -28,7 +28,15 @@
     }
 
     .category__list{
-        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4
+        @apply flex gap-6
+    }
+
+    .product__card{
+        @apply bg-white shadow-lg shadow-gray-400/20 rounded-3xl p-4 pb-6 hover:shadow-xl transition-all cursor-pointer hover:scale-[1.05] active:scale-100
+    }
+
+    .product__list{
+        @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6
     }
 
 }
