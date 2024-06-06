@@ -1,10 +1,8 @@
 import { Button } from "@nextui-org/button";
+import { redirect } from "next/navigation";
 
-export default function NamePage() {
-  return (
-    <div>
-      <h1>Home page</h1>
-      <Button color="primary">Hola Mundo</Button>
-    </div>
-  );
+export default function () {
+  
+  redirect('/cart');
+
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { ProductCard } from './ProductCard'
-import { ModalNewProduct } from './new product/ModalNewProduct'
+import { ModalNewProduct } from './modal-new-product/ModalNewProduct'
 
 export const ProductList = () => {
   return (

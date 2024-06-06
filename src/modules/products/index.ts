@@ -1,3 +1,3 @@
 export {ProductList} from "./components/ProductList"
-export {NewProductFrom} from "./components/new product/NewProductFrom"
-export {ModalNewProduct} from "./components/new product/ModalNewProduct"
+export {ModalNewProductFrom} from "./components/modal-new-product/ModalNewProductFrom"
+export {ModalNewProduct} from "./components/modal-new-product/ModalNewProduct"
